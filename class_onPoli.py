@@ -4,7 +4,7 @@ import pandas as pd
 
 class CandidateSearch:
     def __init__(self) -> None:
-        self.client = tweepy.Client(bearer_token= 'AAAAAAAAAAAAAAAAAAAAAP%2BhdAEAAAAAmQQeypzMWmPjSrNx0U%2Bv0NQHh%2Fc%3DfsPqIoje91MPrmL2yQftjsjeqyXRa3G2uTzJyKRKbOC4OmKGaQ')
+        self.client = tweepy.Client(bearer_token= '')
 
     def humber_river(self):
         self.hrbc_riding = {'ONDP':'RakocevicT','OLP':'idalipreti','PCPO':'directorpaul'}
