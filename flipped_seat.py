@@ -5,7 +5,7 @@ class Flip:
     These riddings all had their incumbents lose reelection.
     '''
     def __init__(self) -> None:
-        self.client = tweepy.Client(bearer_token= 'AAAAAAAAAAAAAAAAAAAAAP%2BhdAEAAAAAmQQeypzMWmPjSrNx0U%2Bv0NQHh%2Fc%3DfsPqIoje91MPrmL2yQftjsjeqyXRa3G2uTzJyKRKbOC4OmKGaQ')
+        self.client = tweepy.Client(bearer_token= '')
     
     def york_south(self):
         self.ridding = {'OLP':'nadia_guerrera', 'ONDP':'FaisalHassanNDP', 'PCPO':'MichaelFordPC'}
